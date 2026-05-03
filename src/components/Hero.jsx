@@ -100,9 +100,9 @@ export default function Hero() {
                   color: "rgb(0, 164, 255)",
                 }}
               >
-                designer
+                Developer
               </span>
-              <span style={{ color: "var(--ink-soft)" }}>,</span>
+              <span style={{ color: "var(--ink-soft)" }}> &</span>
             </span>
             <span style={{ display: "block" }}>
               AI{" "}
