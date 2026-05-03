@@ -10,6 +10,7 @@ const PROJECTS = [
     year: '2025',
     role: 'Design + Engineering',
     tags: ['Next.js', 'PWA', 'TypeScript'],
+    href: 'https://cal-pad.netlify.app/',
   },
   {
     n: '02',
@@ -35,7 +36,9 @@ function ProjectRow({ p, i }) {
   return (
     <Reveal delay={i * 80}>
       <a
-        href="#"
+        href={p.href || '#'}
+        target={p.href ? '_blank' : undefined}
+        rel={p.href ? 'noopener noreferrer' : undefined}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         className="project-row"

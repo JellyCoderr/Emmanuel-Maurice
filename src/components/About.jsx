@@ -65,7 +65,7 @@ export default function About() {
                 color: "var(--ink)",
               }}
             >
-              <img src="/public/images/Emmanuel.jpeg" alt="" />
+              <img src="/images/Emmanuel.jpeg" alt="" />
             </div>
             <div
               style={{
