@@ -5,7 +5,11 @@ const SKILL_GROUPS = [
   { label: "Front-end", items: ["React", "TypeScript", "Tailwind", "Next.js"] },
   {
     label: "AI",
-    items: ["Agent architecture", "AI-assisted development", "AI Generalist"],
+    items: [
+      "AI Workflow Architecture",
+      "AI-assisted development",
+      "AI Generalist",
+    ],
   },
   { label: "Design", items: ["Figma", "Photoshop", "Canva"] },
 ];
@@ -36,7 +40,7 @@ export default function Capabilities() {
               letterSpacing: "-0.03em",
             }}
           >
-            I work across the seam where{" "}
+            I build at the intersection of{" "}
             <span
               style={{
                 fontFamily: "var(--font-display)",
@@ -54,7 +58,7 @@ export default function Capabilities() {
                 color: "rgb(0, 164, 255)",
               }}
             >
-              intelligence.
+              speed.
             </span>
           </h2>
         </Reveal>

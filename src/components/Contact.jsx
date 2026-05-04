@@ -197,7 +197,7 @@ export default function Contact() {
                 color: "var(--accent-1)",
               }}
             >
-              good.
+              that scales.
             </span>
           </span>
 
@@ -286,9 +286,10 @@ export default function Contact() {
                 maxWidth: 520,
               }}
             >
-              Booking late-summer 2026. Best fit: AI products with editorial
-              sensibility, design systems for series-A teams, or a focused 4–8
-              week sprint.
+              * Available now open to web app projects, contracts, and
+              collaborations. <br /> Best fit: startups that need to ship fast,
+              small scale businesses / e-commerce brands, Focused 2–6 weeks web
+              app sprints, and AI-integrated web products.
             </p>
             <div style={{ marginTop: 40 }}>
               <ContactForm />

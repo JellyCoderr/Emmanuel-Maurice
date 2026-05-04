@@ -97,7 +97,7 @@ export default function About() {
                 color: "var(--ink)",
               }}
             >
-              A character floating on the{" "}
+              I've led teams{" "}
               <span
                 style={{
                   fontFamily: "var(--font-display)",
@@ -105,11 +105,10 @@ export default function About() {
                   color: "var(--accent-1)",
                 }}
               >
-                wings of life,
+                shipped for real clients,
               </span>
               <br />
-              transitioning from reading scripts to writing syntax, and surfing
-              the world of AI to learn how it makes work easier and faster.
+              and never stopped building.
             </p>
           </Reveal>
 
@@ -124,8 +123,8 @@ export default function About() {
               }}
             >
               I ship scalable products at the place where creativity meets logic
-              building front-ends with React and Next, and architecting AI
-              systems that turn ideas into working software.
+              building applications with powerful modern Frameworks and
+              architecting AI systems that turn ideas into working software.
             </p>
           </Reveal>
 
