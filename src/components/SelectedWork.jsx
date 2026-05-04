@@ -10,7 +10,7 @@ const PROJECTS = [
     year: "2025",
     role: "Design + Engineering",
     tags: ["Next.js", "PWA", "TypeScript"],
-    href: "https://cal-pad.netlify.app/",
+    href: "https://calpad-sigma.vercel.app/",
   },
   {
     n: "02",
